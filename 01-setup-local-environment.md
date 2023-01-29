@@ -80,6 +80,12 @@ source ~/code/aem-projects/bash-env.bash
 ## 06 - Aliases (Windows Users)
 Windows users can use the `DOSKEY` command to install similar macros, and remember dos also has the && operator if you want to AND two or more commands.
 All aliaes can be included into a .cmd file and can be invoked by simply typing `aem` (provided this cmd is in the windows path), name your file as `aem.cmd`
+[Microsoft Reference](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/doskey)
+### aem.cmd
+``` 
+REM Working on it 
+
+```
 
 ## 07 - Demo
 * Open a new terminal 
