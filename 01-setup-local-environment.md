@@ -10,9 +10,11 @@ Lets get started
 ![Directory Structure High Level](assets/01-directory-structure-1.png)
 
 ### Exploded
-![Directory Structure Exploded](assets/01-directory-structure-1.png)
+![Directory Structure Exploded](assets/01-directory-structure-2.png)
 
 ## 02 - Debug File
+![Download start-debug](assets/start-debug)
+
 copy start in crx-quickstart/bin to crx-quickstart/bin/start-debug and make the following change
 Line 
 
@@ -21,7 +23,7 @@ Line
 to
 
 `java $CQ_JVM_OPTS $CQ_JVM_OPTS_DEBUG -jar $CURR_DIR/$CQ_JARFILE $START_OPTS &`
-![start-debug](assets/start-debug-author.txt)
+
 
 ## 03 - Aliases - Unix
 This step will create various aliases you can use to build and deploy project locally
