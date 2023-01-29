@@ -6,7 +6,11 @@ I will introduce a simple way to setup your project structure which will provide
 I am using a Mac, but you can easily change the scripts for windows using the DOSKEY as a replacement for alias
 Lets get started
 ## 01 - Directory Structure 
-![Directory Structure](assets/01-directory-structure.png)
+### High Level
+![Directory Structure High Level](assets/01-directory-structure-1.png)
+
+### Exploded
+![Directory Structure Exploded](assets/01-directory-structure-1.png)
 
 ## 02 - Debug File
 copy start in crx-quickstart/bin to crx-quickstart/bin/start-debug and make the following change
@@ -17,6 +21,7 @@ Line
 to
 
 `java $CQ_JVM_OPTS $CQ_JVM_OPTS_DEBUG -jar $CURR_DIR/$CQ_JARFILE $START_OPTS &`
+![start-debug](assets/start-debug-author.txt)
 
 ## 03 - Aliases - Unix
 This step will create various aliases you can use to build and deploy project locally
@@ -72,6 +77,7 @@ alias pdp="mvn -pl core -pl ui.apps clean install  -DskipTests -PautoInstallPack
 #Complete Installation on Publish Server
 alias pp="mvn  clean install  -DskipTests -PautoInstallPackagePublish,adobe-public"
 ```
+[Download alias file](assets/01-bash-env.bash)
 ## 05 - Source aliases file
 Open .bash_profile
 ```
@@ -89,3 +95,4 @@ REM Working on it
 
 ## 07 - Demo
 * Open a new terminal 
+
