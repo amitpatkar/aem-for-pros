@@ -1,4 +1,5 @@
-# Introduction
+# 01 - Setting up Local Environment 
+## Introduction
 If you are like me, working on multiple AEM projects, for different clients.
 You must be getting challenged with different laptops provided by the clients, some windows, some are OSX, some ubuntu.
 I will introduce a simple way to setup your project structure which will provide you consistency, helpful short cuts and a repeatable process to add more projects.
@@ -17,7 +18,7 @@ to
 
 `java $CQ_JVM_OPTS $CQ_JVM_OPTS_DEBUG -jar $CURR_DIR/$CQ_JARFILE $START_OPTS &`
 
-## 03 - Aliases
+## 03 - Aliases - Unix
 This step will create various aliases you can use to build and deploy project locally
 ```
 #!/bin/bash
@@ -76,5 +77,9 @@ Open .bash_profile
 ```
 source ~/code/aem-projects/bash-env.bash
 ```
+## 06 - Aliases (Windows Users)
+Windows users can use the `DOSKEY` command to install similar macros, and remember dos also has the && operator if you want to AND two or more commands.
+All aliaes can be included into a .cmd file and can be invoked by simply typing `aem` (provided this cmd is in the windows path), name your file as `aem.cmd`
 
-## 04 - Demo
+## 07 - Demo
+* Open a new terminal 
